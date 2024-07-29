@@ -33,5 +33,5 @@ function dnaStrand(dna){
 //   G: 'C',
 // }
 
-console.log(dnaStrand("ATTGC")) // should return "TAACG"
-console.log(dnaStrand("GTAT")) // should return "CATA"
+console.log(dnaStrand("ATTGC")) 
+console.log(dnaStrand("GTAT"))
