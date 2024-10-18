@@ -6,3 +6,6 @@ int combat(int health, int damage){
     }
     return health - damage;
 }
+// int combat(int health, int damage){
+//   return damage > health ? 0 : health - damage;
+// }
