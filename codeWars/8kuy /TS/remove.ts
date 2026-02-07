@@ -10,5 +10,12 @@
 // "Hi"      ---> "Hi"
 
 export function remove(s: string): string {
-  return s.replace(/!$/, "");
+  return s.replace(/!/g, "") + "!";
 }
+
+console.log(remove("Hi!"));
+console.log(remove("Hi!!!"));
+console.log(remove("!Hi"));
+console.log(remove("!Hi!"));
+console.log(remove("Hi! Hi!"));
+console.log(remove("Hi"));
