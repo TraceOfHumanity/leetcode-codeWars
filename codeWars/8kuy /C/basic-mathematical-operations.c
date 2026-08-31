@@ -18,5 +18,7 @@ double basicOp(char operation, double value1, double value2) {
     return value1 * value2;
   case '/':
     return value1 / value2;
+  default:
+    return 0.0;
   }
 }
